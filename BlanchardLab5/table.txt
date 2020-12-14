@@ -1,0 +1,13 @@
+10 11
+0123456789,.,abcdefghijklmnopqrstuvwxyz,=,;,(,),+-,*/%,\s\n\t\r
+1234567890a0
+12aaaaaaaaa1
+2aaaaaaaaaa1
+3a3aaaaaaaa2
+aaaaaaaaaaa3
+aaaaaaaaaaa4
+aaaaaaaaaaa5
+aaaaaaaaaaa6
+aaaaaaaaaaa7
+aaaaaaaaaaa8
+aaaaaaaaaaa9
