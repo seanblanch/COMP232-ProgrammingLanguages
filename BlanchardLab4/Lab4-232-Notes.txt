@@ -1,0 +1,113 @@
+NOTES 232 LAB 9/25/2019 SEAN BLANCHARD
+
+Talking about Lab4 - Nested Cases Scanner
+
+--------------------------------------------------------------------------------------
+
+Implementing a scanner for this language.
+
+What are the tokens in this language? - first thing to identify
+
+tokens are the words. 
+
+
+LIST OF TOKENS (types)
+0. No type
+1. number
+2. id
+3. assignment
+2. repeat (clumped with id)
+2. print
+4. semicolon
+5. left parentises (open)
+6. right parentises (close)
+7. addop
+8. multop
+
+Value of tokens
+number - int, long, double
+id - string (char*)
+assignment - None
+repeat - None
+print - None
+semicolon - None
+l paren - None
+r paren - None
+addop - char + | -                                 | = or
+multop - char * | / | % 
+
+We need to build a state machine, whatever character it reads we decide what token it needs.
+
+first character is a - z ( it could be id,print,or repeat [state 2])
+
+NESTED SWITCH
+Switch statement - outer switch is state of where machine is.
+inner switch what character did i just read.?
+
+More work to find when they "end". for state 1 and 2.
+
+switch (state)
+
+	case 0: 
+		switch inside that case.
+		case "0 - 9"
+		case "a - z"
+		case ":"
+		etc.
+
+if (we get a letter -> go to state 2)
+{
+	if (we get another letter, go back to state 2)
+  	 {
+		if(we dont get another letter)
+		{
+		done with identifier. (start over)
+		}
+   	}
+}
+else if (we get a number -> go to state 1)
+{
+	if(we get another numberr -> go to state 1)
+}
+
+
+099a -> tokenization
+we get 0 -> go to state 1.
+we get a 9 -> goes back to state 1.
+we get a 9 -> goes back to state 1.
+we get a a -> (not a number) go back to input and spit it out.
+
+1:"009"
+2: "a"
+
+for assignment
+0 -> : -> 3a -> = -> 3. it will be invalid unttill it reads : then a = right after, but wont
+just use assignment iif there is a :.
+
+for semicolon
+0 -> ; -> 4
+
+for lparen
+0 -> ( -> 5
+
+for r paren
+0 -> ) -> 6
+
+for addOp
+0 -> + | - -> 7
+
+for multOp
+0-> * | / | % -> 8
+
+9 states in machine, starting 0 -> 9
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sean1/Desktop/BlanchardLab4/src/scanner.c
+scanner.h
+C:/Users/sean1/Desktop/BlanchardLab4/src/scanner.h
+
+C:/Users/sean1/Desktop/BlanchardLab4/src/scanner.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+
