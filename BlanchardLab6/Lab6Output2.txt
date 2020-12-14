@@ -1,0 +1,20 @@
+Sean Blanchard
+10/16/2019
+Lab 6
+
+input.txt 2 -> 
+
+firstvar = 12;
+secondvar = 87;
+repeat (28)
+ thirdvar = (firstvar + 3) * 12;
+repeat (firstvar + 2 * secondvar)
+ repeat (12)
+  print -thirdvar;;;
+
+output 2 ->
+
+PARSING ERROR: Not a correct statement
+Exiting...
+
+Process finished with exit code 1

@@ -1,0 +1,196 @@
+Sean Blanchard
+10/16/2019
+Lab 6
+
+OUTPUT 1 - input.txt
+
+----------------------------------------------------------------------------------
+
+Done parsing...
+=> START program
+=> START statement
+=> START assignment
+=> START identifier
+<id> firstvar
+=> END identifier
+=> START expresion
+=> START term
+=> START factor
+=> START number
+<number> 1.000000
+=> END number
+=> END factor
+=> END term
+=> END expresion
+=> END assignment
+=> END statement
+=> START program
+=> START statement
+=> START assignment
+=> START identifier
+<id> secondvar
+=> END identifier
+=> START expresion
+=> START term
+=> START factor
+=> START number
+<number> 2.000000
+=> END number
+=> END factor
+=> END term
+=> END expresion
+=> END assignment
+=> END statement
+=> START program
+=> START statement
+=> START RepeatStmt
+=> START expresion
+=> START term
+=> START factor
+=> START number
+<number> 10.000000
+=> END number
+=> END factor
+=> END term
+=> END expresion
+=> START statement
+=> START assignment
+=> START identifier
+<id> thirdvar
+=> END identifier
+=> START expresion
+=> START term
+=> START factor
+=> START number
+<number> 2.000000
+=> END number
+=> END factor
+<times>
+=> START expresion
+=> START term
+=> START factor
+=> START expresion
+=> START term
+=> START factor
+=> START identifier
+<id> firstvar
+=> END identifier
+=> END factor
+<modulus>
+=> START expresion
+=> START term
+=> START factor
+=> START identifier
+<id> secondvar
+=> END identifier
+=> END factor
+=> END term
+=> END expresion
+=> END term
+=> END expresion
+=> END factor
+<divide>
+=> START expresion
+=> START term
+=> START factor
+=> START expresion
+=> START term
+=> START factor
+=> START identifier
+<id> firstvar
+=> END identifier
+=> END factor
+=> END term
+<plus>
+=> START expresion
+=> START term
+=> START factor
+=> START number
+<number> 2.000000
+=> END number
+=> END factor
+=> END term
+=> END expresion
+=> END expresion
+=> END factor
+=> END term
+=> END expresion
+=> END term
+=> END expresion
+=> END term
+=> END expresion
+=> END assignment
+=> END statement
+=> END RepeatStmt
+=> END statement
+=> START program
+=> START statement
+=> START RepeatStmt
+=> START expresion
+=> START term
+=> START factor
+=> START identifier
+<id> firstvar
+=> END identifier
+=> END factor
+=> END term
+<plus>
+=> START expresion
+=> START term
+=> START factor
+=> START number
+<number> 2.000000
+=> END number
+=> END factor
+<times>
+=> START expresion
+=> START term
+=> START factor
+=> START identifier
+<id> secondvar
+=> END identifier
+=> END factor
+=> END term
+=> END expresion
+=> END term
+=> END expresion
+=> END expresion
+=> START statement
+=> START RepeatStmt
+=> START expresion
+=> START term
+=> START factor
+=> START identifier
+<id> thirdvar
+=> END identifier
+=> END factor
+=> END term
+=> END expresion
+=> START statement
+=> START RepeatStmt
+=> START expresion
+=> START term
+=> START factor
+<minus>
+=> START factor
+=> START identifier
+<id> firstvar
+=> END identifier
+=> END factor
+=> END factor
+=> END term
+=> END expresion
+=> END RepeatStmt
+=> END statement
+=> END RepeatStmt
+=> END statement
+=> END RepeatStmt
+=> END statement
+=> START program
+=> END program
+=> END program
+=> END program
+=> END program
+=> END program
+
+Process finished with exit code 0

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sean1/Desktop/BlanchardLab6/src/parser.c
+parser.h
+C:/Users/sean1/Desktop/BlanchardLab6/src/parser.h
+
+C:/Users/sean1/Desktop/BlanchardLab6/src/parser.h
+stdio.h
+-
+stdlib.h
+-
+scanner.h
+C:/Users/sean1/Desktop/BlanchardLab6/src/scanner.h
+
+C:/Users/sean1/Desktop/BlanchardLab6/src/scanner.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+
