@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sean1/Desktop/Lab1_10/src/processor.c
+processor.h
+C:/Users/sean1/Desktop/Lab1_10/src/processor.h
+string.h
+-
+
+C:/Users/sean1/Desktop/Lab1_10/src/processor.h
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+C:/Users/sean1/Desktop/Lab1_10/src/processor_test.c
+processor.h
+C:/Users/sean1/Desktop/Lab1_10/src/processor.h
+

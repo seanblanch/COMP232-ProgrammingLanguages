@@ -1,0 +1,168 @@
+Sean Blanchard
+9/24/2019
+COMP232 Lab 3
+
+----------------------------------------------------------------------------------
+
+Enter the initial number of records:
+
+Name: Zach
+Age: 22
+Height: 5ft 9in
+DOB: 2/20/1989
+
+Name: Maya
+Age: 21
+Height: 5ft 10in
+DOB: 8/2/1990
+
+Name: Ange
+Age: 23
+Height: 5ft 7in
+DOB: 7/3/1987
+
+Name: Greg
+Age: 22
+Height: 6ft 2in
+DOB: 4/15/1989
+
+Name: Matt
+Age: 24
+Height: 6ft 6in
+DOB: 6/5/1986
+
+Name: Bob
+Age: 50
+Height: 8ft 0in
+DOB: 3/23/1900
+
+--> Searching database for Maya
+
+Name: Maya
+Age: 21
+Height: 5ft 10in
+DOB: 8/2/1990
+
+--> Removing Maya from database
+
+Name: Zach
+Age: 22
+Height: 5ft 9in
+DOB: 2/20/1989
+
+Name: Ange
+Age: 23
+Height: 5ft 7in
+DOB: 7/3/1987
+
+Name: Greg
+Age: 22
+Height: 6ft 2in
+DOB: 4/15/1989
+
+Name: Matt
+Age: 24
+Height: 6ft 6in
+DOB: 6/5/1986
+
+Name: Bob
+Age: 50
+Height: 8ft 0in
+DOB: 3/23/1900
+
+--> Searching database for Frank
+Frank not found
+
+Name: Zach
+Age: 22
+Height: 5ft 9in
+DOB: 2/20/1989
+
+Name: Ange
+Age: 23
+Height: 5ft 7in
+DOB: 7/3/1987
+
+Name: Greg
+Age: 22
+Height: 6ft 2in
+DOB: 4/15/1989
+
+Name: Matt
+Age: 24
+Height: 6ft 6in
+DOB: 6/5/1986
+
+Name: Bob
+Age: 50
+Height: 8ft 0in
+DOB: 3/23/1900
+
+--> Removing Miro from database
+
+Name: Zach
+Age: 22
+Height: 5ft 9in
+DOB: 2/20/1989
+
+Name: Ange
+Age: 23
+Height: 5ft 7in
+DOB: 7/3/1987
+
+Name: Greg
+Age: 22
+Height: 6ft 2in
+DOB: 4/15/1989
+
+Name: Matt
+Age: 24
+Height: 6ft 6in
+DOB: 6/5/1986
+
+Name: Bob
+Age: 50
+Height: 8ft 0in
+DOB: 3/23/1900
+
+
+--> Adding new record to database
+
+Name: Zach
+Age: 22
+Height: 5ft 9in
+DOB: 2/20/1989
+
+Name: Ange
+Age: 23
+Height: 5ft 7in
+DOB: 7/3/1987
+
+Name: Greg
+Age: 22
+Height: 6ft 2in
+DOB: 4/15/1989
+
+Name: Matt
+Age: 24
+Height: 6ft 6in
+DOB: 6/5/1986
+
+Name: Bob
+Age: 50
+Height: 8ft 0in
+DOB: 3/23/1900
+
+Name: Frank
+Age: 100
+Height: 9ft 0in
+DOB: 5/4/1923
+
+--> Clearing database
+
+--> Adding new record to database
+
+Name: AJ
+Age: 99
+Height: 88ft 0in
+DOB: 1/1/1919
